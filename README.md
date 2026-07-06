@@ -4,10 +4,6 @@ Task 1 deliverable for the ApexPlanet Full Stack Web Development Internship
 (PHP & MySQL track): a personal portfolio site built with plain HTML, CSS,
 and JavaScript, and deployed via GitHub Pages.
 
-## 🔗 Live site
-Add your GitHub Pages link here once deployed, e.g.
-`https://<your-username>.github.io/portfolio/`
-
 ## 📁 Project structure
 ```
 portfolio/
