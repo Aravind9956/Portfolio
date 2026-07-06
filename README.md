@@ -32,12 +32,6 @@ portfolio/
 - [x] Responsive design with media queries
 - [x] JavaScript: DOM manipulation, event handling, scroll-based reveal
 
-## 🚀 Running locally
-Just open `index.html` in a browser — no build step required.
-
-## 📹 Demo video
-Add the LinkedIn video link here after recording your 5-minute walkthrough.
-
 ## 📇 Contact
 - Email: aravindchinthapally@gmail.com
 - GitHub: [@Aravind9956](https://github.com/Aravind9956)
