@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chinthapally Aravind — Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Chinthapally Aravind, a full stack web developer in training (PHP, MySQL, HTML, CSS, JavaScript).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grain"></div>
+
+  <header class="nav">
+    <a href="#top" class="nav__mark">CA</a>
+    <nav class="nav__links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Full Stack Web Development — PHP &amp; MySQL Track</p>
+        <h1 class="hero__title">Chinthapally<br>Aravind</h1>
+        <p class="hero__sub">I build clean, functional web applications from the database up —
+          currently sharpening my craft through a hands-on full stack internship.</p>
+
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">See my work</a>
+          <a href="#contact" class="btn btn--ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="console" aria-hidden="true">
+        <div class="console__bar">
+          <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+          <span class="console__title">learning.log</span>
+        </div>
+        <div class="console__body">
+          <p><span class="console__prompt">&gt;</span> <span id="typedLine"></span><span class="cursor">_</span></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section__head">
+        <p class="tag">About</p>
+        <h2>Foundations first, features second.</h2>
+      </div>
+      <div class="section__body about__grid">
+        <p>
+          I'm an aspiring full stack developer working through a structured 60-day internship
+          program centered on <strong>PHP and MySQL</strong>, alongside the front-end fundamentals
+          that make an application worth using: semantic HTML, deliberate CSS, and JavaScript
+          that responds the moment you touch it.
+        </p>
+        <p>
+          Right now I'm in <strong>Task 1 — Foundation &amp; Environment Setup</strong>: getting
+          comfortable with a local dev stack, Git &amp; GitHub workflows, and the building blocks
+          of the web before layering on frameworks. This site is that task's deliverable —
+          built, styled, and shipped by hand.
+        </p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="section__head">
+        <p class="tag">Skills</p>
+        <h2>What I'm building with.</h2>
+      </div>
+
+      <div class="skills">
+        <div class="skill-group">
+          <h3>Structure &amp; Style</h3>
+          <ul>
+            <li>HTML5 <span class="dim">— semantic markup, forms, media</span></li>
+            <li>CSS3 <span class="dim">— Flexbox, Grid, animations</span></li>
+            <li>Responsive Design <span class="dim">— media queries, mobile-first</span></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Behavior</h3>
+          <ul>
+            <li>JavaScript <span class="dim">— DOM, events, validation</span></li>
+            <li>AJAX <span class="dim">— async data without reloads</span></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Server &amp; Data</h3>
+          <ul>
+            <li>PHP <span class="dim">— syntax, forms, control flow</span></li>
+            <li>MySQL <span class="dim">— schema design, CRUD queries</span></li>
+            <li>Git &amp; GitHub <span class="dim">— version control workflow</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section__head">
+        <p class="tag">Projects</p>
+        <h2>Early work, in progress.</h2>
+      </div>
+
+      <div class="projects">
+        <article class="project">
+          <div class="project__meta">
+            <span class="mono">01</span>
+            <span class="pill">Task 1</span>
+          </div>
+          <h3>This Portfolio</h3>
+          <p>A hand-coded personal site — semantic HTML, custom CSS layout system, and a
+            lightweight JS interaction. Built and version-controlled from a blank repo.</p>
+          <div class="project__stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="#" class="project__link">View repository →</a>
+        </article>
+
+        <article class="project project--placeholder">
+          <div class="project__meta">
+            <span class="mono">02</span>
+            <span class="pill pill--muted">Task 3</span>
+          </div>
+          <h3>User Management System</h3>
+          <p>Coming up: authentication, sessions, and full CRUD backed by MySQL —
+            with prepared statements to keep it honest.</p>
+          <div class="project__stack">
+            <span>PHP</span><span>MySQL</span><span>Sessions</span>
+          </div>
+          <a href="#" class="project__link project__link--disabled">In progress</a>
+        </article>
+
+        <article class="project project--placeholder">
+          <div class="project__meta">
+            <span class="mono">03</span>
+            <span class="pill pill--muted">Task 5</span>
+          </div>
+          <h3>Capstone Project</h3>
+          <p>The 60-day arc ends with an independently designed, deployed web app —
+            idea still taking shape.</p>
+          <div class="project__stack">
+            <span>Full Stack</span><span>Deployment</span>
+          </div>
+          <a href="#" class="project__link project__link--disabled">Not started</a>
+        </article>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- CONTACT -->
+    <section class="section section--contact" id="contact">
+      <div class="section__head">
+        <p class="tag">Contact</p>
+        <h2>Let's talk shop.</h2>
+      </div>
+      <div class="contact">
+        <p class="contact__lead">Open to feedback, collaboration, or a conversation about
+          full stack development.</p>
+        <div class="contact__links">
+          <a href="mailto:aravindchinthapally@gmail.com">aravindchinthapally@gmail.com</a>
+          <a href="https://github.com/Aravind9956" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="#" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Built by Chinthapally Aravind — Full Stack Web Development Internship, Task 1.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
